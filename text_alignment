@@ -6,3 +6,6 @@
 for a in range(5):
     print(format(('H'*5),'^20'))
     
+for a in range(3):
+    print(format(('H'*25),'>--'))
+    
