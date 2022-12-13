@@ -10,4 +10,5 @@ def wrap(string, max_width):
 if __name__ == '__main__':
     string, max_width = input(), int(input())
     result = wrap(string, max_width)
+    #wrap here is the function we already made with "def wrap" and it is not belonge to the class "textwrap"
     print(result)
