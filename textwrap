@@ -1,9 +1,15 @@
-#textwrap is the class and 'wrap' and 'fill' are the function for exaple:
-#textwrap.wrap(Var"string",Var"width='number=like 1 or 2 or 47566'") and textwrap.fill(Var type st,var typ digt)
+'''
+textwrap is the class and 'wrap' and 'fill' are the function for exaple:
+textwrap.wrap(Var"string",Var"width='number=like 1 or 2 or 47566'") witch make a list each iteme from the string have the width
+and textwrap.fill(Var type st,var typ digt) witch make like a loop for each item 
+- so se don't need textwrap.wrap(string,width) in this case but I let it to learn
+
+'''
 import textwrap
 
+
 def wrap(string, max_width):
-    a=textwrap.wrap(string,max_width)
+    #a=textwrap.wrap(string,max_width)
     result=textwrap.fill(string,max_width)
     return result
 
