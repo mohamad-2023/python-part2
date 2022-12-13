@@ -1,0 +1,60 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+g =map(int,input().split())
+f=list(g)
+b=f[0]
+e=f[1]
+
+a=".|."
+
+c=b//2
+
+for i in range(1,b,2):
+        d=a*i
+        print(d.center(e,"-"))
+print("WELCOME".center(e,"-"))
+for i in range(b-2,0,-2):
+    d=a*i
+    print(d.center(e,"-"))
+----------------------------------------------------------
+
+'''
+print(".|.".center(9,"-"))
+a=".|."
+b = int(input())
+c=b//2
+e=3*b
+
+for i in range(1,b,2):
+        d=a*i
+        print(d.center(e,"-"))
+print("WELCOME".center(e,"-"))
+for i in range(b,0,-2):
+    d=a*i
+    print(d.center(e,"-"))
+'''
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+g =map(int,input().split())
+f=list(g)
+b=f[0]
+e=f[1]
+print (b)
+print(e)
+
+a=".|."
+
+c=b//2
+'''
+for i in range(1,b,2):
+        d=a*i
+        print(d.center(e,"-"))
+        '''
+print("WELCOME".center(e,"-"))
+
+for i in range(b,0,-2):
+    d=a*i
+    print(d.center(e,"-"))
+
+
+
+   
