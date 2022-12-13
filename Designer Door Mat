@@ -1,5 +1,6 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 g =map(int,input().split())
+#this to make two values in one line and retun them in integer and then i made the tuple of values into list and take each item as Variable
 f=list(g)
 b=f[0]
 e=f[1]
