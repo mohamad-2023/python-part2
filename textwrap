@@ -1,0 +1,13 @@
+#textwrap is the class and 'wrap' and 'fill' are the function for exaple:
+#textwrap.wrap(Var"string",Var"width='number=like 1or2or 47566'") and textwrap.fill(Var type st,var typ digt)
+import textwrap
+
+def wrap(string, max_width):
+    a=textwrap.wrap(string,max_width)
+    result=textwrap.fill(string,max_width)
+    return result
+
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
