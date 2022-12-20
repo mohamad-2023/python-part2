@@ -1,0 +1,20 @@
+import string
+
+a =string.ascii_lowercase
+lis=[]
+
+
+def print_rangoli(n):
+    # your code goes here
+    for i in range(n):
+        s='-'.join(a[i:n])
+        lis.append((s[::-1]+s[1:]).center(4*n-3,"-"))
+    print('\n'.join(lis[:0:-1]+lis))
+        #s1=list(s)
+        #s2=reversed(s1)
+        #s3=s1+(list(s2))[1:]
+        #s4='-'.join(s3)
+
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
