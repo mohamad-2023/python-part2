@@ -5,9 +5,11 @@ import os
 import random
 import re
 import sys
+#import string
 # Complete the solve function below.
 def solve(s):
     return ' '.join(i.capitalize() for i in s.split(' '))
+    #anothe way to solve this is : """return string.capwords(s,' ')""" but we have to import string before
 
 
 if __name__ == '__main__':
